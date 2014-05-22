@@ -1,3 +1,5 @@
+This readme was taken from my [blogpost][6]:
+
 Since March 2014, Java 8 has been available. To be honest, I expected more fuzz about this release. This release is one of the biggest releases so far and many people will enjoy features that are bundled with it (like me).
 
 This post will not describe all new features in JDK8 (like lambda's, streams, ...). It will describe on how to use it. If you want more information, you can find some very good explanations on the internet. Definitely checkout some talks of Venkat Subramaniam and José Paumard. You can find some talks of them on [parleys][1].
@@ -230,3 +232,4 @@ Example code is available on my [github][5] account. So feel free to have a look
  [3]: https://jacobsvanroy.be/blog/wp-content/uploads/2014/05/lotter_class_diagram.png
  [4]: http://docs.oracle.com/javase/tutorial/essential/concurrency/forkjoin.html
  [5]: https://github.com/davyvanroy/jdk8-lotter
+ [6]: https://jacobsvanroy.be/blog/jdk8-lottery/
