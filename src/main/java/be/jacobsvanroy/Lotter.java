@@ -64,10 +64,11 @@ public class Lotter {
                         .parallel()
                         .limit(10)
                         .map(lotterDraw::getDraw)
-                        .reduce(new ArrayList<>(), (a, b) -> {
-                            a.addAll(b);
-                            return a;
-                        });
+                        .collect(
+                                ArrayList::new,
+                                (left, right) -> left.addAll(right),
+                                (left, right) -> left.addAll(right)
+                        );
     }
 
 
